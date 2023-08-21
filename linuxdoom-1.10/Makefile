@@ -4,7 +4,7 @@
 #
 # $Log:$
 #
-CC=  clang-15  # gcc or g++
+CC=  gcc  # gcc or g++
 
 CFLAGS=-g -Wall -DNORMALUNIX -DLINUX # -DUSEASM 
 LDFLAGS=-L/usr/X11R6/lib
